@@ -33,4 +33,7 @@ func function_with_return_type(somenumber : Int) -> Int {
 // while defining return type function we have to return the parameter, the above function will return only string 
 
 print ("printing function with return type")
-function_with_return_type(somenumber: 2)
+var my_fun_variable = function_with_return_type(somenumber: 2) // note : while defining a functin along with a return type we have to save that in a variable
+
+print ("printing the function variable")
+print (my_fun_variable)
